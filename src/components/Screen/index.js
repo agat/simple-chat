@@ -10,7 +10,10 @@ type PropsT = {
 };
 
 const Screen = ({
-    colors = ['#90f7ec', '#32ccbc'],
+    colors = [
+        '#32ccbc',
+        '#90f7ec'
+    ],
     style = {},
     ...props
 }: PropsT) => (
