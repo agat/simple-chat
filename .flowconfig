@@ -1,11 +1,9 @@
 [ignore]
-
-[include]
-
-[libs]
-
-[lints]
+.*/node_modules/fbjs/.*
 
 [options]
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
 
-[strict]
+[untyped]
+.*/node_modules/.*
