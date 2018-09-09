@@ -69,6 +69,7 @@ class Input extends React.Component<PropsT, StateT> {
 
 export const InputBody = styled.View`
     flex-direction: row;
+    justify-content: flex-end;
     border: 1px solid #d8d8d8;
     border-radius: 22px;
     backgroundColor: #fff;
